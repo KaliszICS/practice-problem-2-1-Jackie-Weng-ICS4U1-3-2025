@@ -1,7 +1,7 @@
 public class PracticeProblem {
 
  
-    public static int find(int[] array, int number) {
+    public static int find(int[] array, int number) { //
         for (int i = 0; i < array.length; i++) {
             if (array[i] == number) {
                 return i;
